@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  acceptance-test:
+    image: node:8.9.4-alpine
+    volumes:
+      - ./acceptance-test:/workdir
+    working_dir: /workdir
+    environment:
+      IS_DOCKER: "true"
+    command:
+      /bin/ash -c
+      "npm install &&
+      npm test"
