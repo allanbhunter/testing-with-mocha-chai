@@ -35,3 +35,8 @@ Since we are testing a rest api here, tests are laid out grouped by resource, th
 cd acceptance-test;
 npm test
 ```
+
+#### Running in docker
+```$xslt
+docker-compose run acceptance-test
+```
