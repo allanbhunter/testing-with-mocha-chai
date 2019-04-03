@@ -1,0 +1,16 @@
+{
+  "name": "acceptance-test",
+  "version": "1.0.0",
+  "description": "Acceptance tests",
+  "main": "test/utils.js",
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.1",
+    "mocha": "^6.0.2"
+  }
+}
