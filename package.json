@@ -1,0 +1,30 @@
+{
+  "name": "testing-with-mocha-chai",
+  "version": "1.0.0",
+  "description": "Example api test suite using mocha as test runner, chai-http as http client and chai as assertion library.",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "lint": "eslint acceptance-test/test/."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allanbhunter/testing-with-mocha-chai.git"
+  },
+  "author": "Allan Hunter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/allanbhunter/testing-with-mocha-chai/issues"
+  },
+  "homepage": "https://github.com/allanbhunter/testing-with-mocha-chai#readme",
+  "devDependencies": {
+    "@ljharb/eslint-config": "^13.1.1",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-strict": "^14.0.1",
+    "eslint-plugin-chai-expect": "^2.0.1",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-security": "^1.4.0"
+  }
+}

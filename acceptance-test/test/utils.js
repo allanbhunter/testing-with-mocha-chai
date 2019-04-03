@@ -2,5 +2,5 @@
 const host = 'https://postman-echo.com';
 
 module.exports = {
-    host,
+  host,
 };
